@@ -1,0 +1,17 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Herr Von Muellerhoff', cursive;
+}
+
+.jumbotron
+{
+    background: url('../assets/Proposal-10.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
