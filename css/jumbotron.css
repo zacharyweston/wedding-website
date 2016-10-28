@@ -1,17 +1,120 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
-body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+.splash {
+  /*padding-top: 50px;
+  padding-bottom: 20px;*/
+  background: url('../assets/Proposal-10.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
   font-family: 'Herr Von Muellerhoff', cursive;
+  font-weight: bolder;
+  padding: 0px;
+  margin: 0px;
 }
 
-.jumbotron
-{
-    background: url('../assets/Proposal-10.jpg') no-repeat center center;
-    background-size: cover;
-    padding-top: 20%;
-    padding-bottom: 20%;
+h3 {
+  font-family: 'Arimo', sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
+
+.jumbotron {
+    background-color: transparent;;
+    padding-top: 20%;
+    padding-right: 14%;
+    padding-bottom: 20%;
+    text-align: right;
+}
+
+.jumbotron h1 {
+  color: #2d2d2d;
+}
+
+.navbar-default {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: transparent;
+}
+.navbar-default .navbar-brand {
+  color: #2d2d2d;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #2d2d2d;
+}
+.navbar-default .navbar-text {
+  color: #2d2d2d;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #2d2d2d;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #2d2d2d;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #2d2d2d;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #2d2d2d;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.navbar-default .navbar-toggle {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #2d2d2d;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #2d2d2d;
+}
+.navbar-default .navbar-link {
+  color: #2d2d2d;
+}
+.navbar-default .navbar-link:hover {
+  color: #2d2d2d;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #2d2d2d;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #2d2d2d;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #2d2d2d;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+.nav a{
+    font-size: 1.2em;
+    }

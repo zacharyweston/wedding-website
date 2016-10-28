@@ -1082,7 +1082,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arimo", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -4492,6 +4492,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-right: 0;
   }
 }
+
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
