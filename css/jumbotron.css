@@ -17,7 +17,7 @@
 .splash {
   /*padding-top: 50px;
   padding-bottom: 20px;*/
-  background: url('../assets/Proposal-10.jpg') no-repeat center center fixed;
+  background: url('../assets/home-centered-optimized.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -52,6 +52,7 @@ h3 {
 .navbar-default {
   background-color: rgba(255, 255, 255, 0.5);
   border-color: transparent;
+  font-family: 'Arimo', sans-serif;
 }
 .navbar-default .navbar-brand {
   color: #2d2d2d;
