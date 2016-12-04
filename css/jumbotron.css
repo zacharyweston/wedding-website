@@ -1,5 +1,20 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 
+p {
+  font-family: 'Arimo', Garamond, sans-serif;
+  color: gray;
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    font-family: 'Arimo', Garamond, sans-serif;
+    color: gray;
+}
+
 .container {
   margin: 0 auto;
 }
@@ -17,22 +32,37 @@
 .splash {
   /*padding-top: 50px;
   padding-bottom: 20px;*/
-  background: url('../assets/background-compressor.jpg') no-repeat center center fixed;
+  background: url('../assets/background1.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+@media only screen and (max-width: 768px) {
+  .splash {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background: url('../assets/background-centered1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
 h1 {
   font-family: 'Herr Von Muellerhoff', cursive;
-  font-weight: bolder;
+  font-size: 72px;
   padding: 0px;
   margin: 0px;
 }
 
 h3 {
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Arimo', Garamond, sans-serif;
+  color: grey;
+  text-align: center;
+  font-size: 30px;
   padding: 0px;
   margin: 0px;
 }
