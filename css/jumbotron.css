@@ -49,7 +49,14 @@ footer {
     -o-background-size: cover;
     background-size: cover;
   }
-  img {
+}
+
+.small-screen {
+  max-width: 550px;
+}
+
+@media only screen and (max-width: 576px) {
+  .small-screen {
     max-width: 300px;
   }
 }
