@@ -49,6 +49,9 @@ footer {
     -o-background-size: cover;
     background-size: cover;
   }
+  img {
+    max-width: 300px;
+  }
 }
 
 h1 {
