@@ -77,6 +77,11 @@ h3 {
   margin: 0px;
 }
 
+h5 {
+  font-family: 'Arimo', Garamond, sans-serif;
+  color: #2E2E2E;
+}
+
 .jumbotron {
     background-color: transparent;;
     padding-top: 20%;
@@ -171,6 +176,12 @@ h3 {
 }
 
 
-.nav a{
-    font-size: 1.2em;
-    }
+.nav a {
+  font-size: 1.2em;
+}
+
+@media (max-width: 767px) {
+  .navbar-default {
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+}
